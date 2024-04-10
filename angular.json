@@ -36,6 +36,22 @@
             "deployUrl": "http://localhost:5000/"
           },
           "configurations": {
+            "gh-pages":{
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all",
+              "deployUrl": "https://akshay11168.github.io/"
+            },
             "local":{
               "buildOptimizer": false,
               "optimization": false,
