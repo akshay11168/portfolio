@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:local": "ng build --configuration local",
-    "build:git": "ng build --output-path docs --base-href /portfolio/",
+    "build:git": "ng build --output-path docs --base-href /portfolio/ --configuration gh-pages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
