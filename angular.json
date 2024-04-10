@@ -50,7 +50,7 @@
                 }
               ],
               "outputHashing": "all",
-              "deployUrl": "https://akshay11168.github.io/portfolio"
+              "deployUrl": "https://akshay11168.github.io/portfolio/"
             },
             "local":{
               "buildOptimizer": false,
