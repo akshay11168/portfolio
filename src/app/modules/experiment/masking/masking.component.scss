@@ -1,0 +1,39 @@
+:host {
+    --positionX : 30%;
+    --positionY : 30%;
+    --opacity : 1;
+    // transition: clip-path 0.5s ease-in-out;
+}
+
+.component {
+    height: 150px;
+    width: 150px;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+justify-content: space-evenly;
+}
+
+
+.red {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+
+.yellow {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    opacity: var(--opacity);
+}

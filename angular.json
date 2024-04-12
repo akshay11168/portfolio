@@ -36,7 +36,7 @@
             "deployUrl": "http://localhost:5000/"
           },
           "configurations": {
-            "gh-pages":{
+            "gh-pages": {
               "budgets": [
                 {
                   "type": "initial",
@@ -52,7 +52,7 @@
               "outputHashing": "all",
               "deployUrl": "https://akshay11168.github.io/portfolio/"
             },
-            "local":{
+            "local": {
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -120,8 +120,22 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
