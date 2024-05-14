@@ -1,0 +1,36 @@
+:host{
+    --pointerX : 50px;
+    --pointerY : 50px;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.shade{
+    background-color: #F5FCCD;
+    z-index: 2;
+}
+
+.contact-page, .right {
+    height: 100vh;
+    width: 50vw;
+}
+
+.contact-page {
+
+    background-color: #2e304b;
+
+    background: radial-gradient(circle at var(--pointerX) var(--pointerY), #8287CC 0, #8287CC, #2e304b 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-color: #edd293;
+    // background: radial-gradient(circle at var(--pointerX) var(--pointerY), #76570d 0, #76570d, #edd293 15%);
+}
