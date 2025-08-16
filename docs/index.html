@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome Page</title>
+  <title>Seamless PDF Viewer</title>
+  <style>
+    body { margin: 0; }
+    iframe {
+      border: none;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
 </head>
 <body>
-  <!-- <h1>Welcome to this page!</h1> -->
-
-  <embed src="debadrita_accoli.pdf" type="application/pdf" width="100%" height="600px" />
+  <iframe src="debadrita_accoli.pdf&embedded=true"></iframe>
 </body>
 </html>
